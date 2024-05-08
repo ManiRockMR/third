@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./calsi.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="calsi_container">
+      mani
+    <input type="text" class="textfield" readonly >
+    <div id="buttons">
+      <button class="num" onclick=" current_display = ''; 
+      document.querySelector('.textfield').value = current_display;">c</button>
+      <button class="num" onclick=" current_display =  current_display + '1'; 
+      document.querySelector('.textfield').value = current_display;">1</button>
+      <button class="num" onclick=" current_display =  current_display + '2'; 
+      document.querySelector('.textfield').value = current_display;">2</button>
+      <button class="num" onclick=" current_display =  current_display + '3'; 
+      document.querySelector('.textfield').value = current_display;">3</button>
+      <button class="num" onclick=" current_display =  current_display + '+'; 
+      document.querySelector('.textfield').value = current_display;">+</button>
+      <button class="num" onclick=" current_display =  current_display + '4'; 
+      document.querySelector('.textfield').value = current_display;">4</button>
+      <button class="num" onclick=" current_display =  current_display + '5'; 
+      document.querySelector('.textfield').value = current_display;">5</button>
+      <button class="num"onclick=" current_display =  current_display + '6'; 
+      document.querySelector('.textfield').value = current_display;">6</button>
+      <button class="num" onclick=" current_display =  current_display + '*'; 
+      document.querySelector('.textfield').value = current_display;">*</button>
+      <button class="num" onclick=" current_display =  current_display + '7'; 
+      document.querySelector('.textfield').value = current_display;">7</button>
+      <button class="num" onclick=" current_display =  current_display + '8'; 
+      document.querySelector('.textfield').value = current_display;">8</button>
+      <button class="num" onclick=" current_display =  current_display + '9'; 
+      document.querySelector('.textfield').value = current_display;">9</button>
+      <button class="num" onclick=" current_display =  current_display + '-'; 
+      document.querySelector('.textfield').value = current_display;">-</button>
+      <button class="num" onclick=" current_display =  current_display + '/'; 
+      document.querySelector('.textfield').value = current_display;">/</button>
+      <button class="num" onclick=" current_display =  current_display + '0'; 
+      document.querySelector('.textfield').value = current_display;">0</button>
+      <button class="num" onclick=" let result = eval(current_display);
+      current_display = result ; 
+      document.querySelector('.textfield').value = current_display;">=</button>
+      
+    </div>
+  </div>
+  <script>
+    let current_display = '';
+    document.querySelector('.textfield').value = current_display;
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_box{
+background-image: url(./pic1.jpg);
+background-size: cover;
+height: 45vh;
+
+}
+.main_box .sidebar_menu{
+    position: fixed;
+    height: 30vh;
+    width: 120px;
+    background: linear-gradient(140deg ,rgb(9, 212, 39),rgb(221, 79, 103))
+    /* box-shadow: 0 0 6px rgba(215, 33, 33, 1); */
+}

@@ -1,0 +1,42 @@
+body{
+  width: 350px;
+  background: linear-gradient(140deg, rgb(120, 114, 114), rgb(36, 36, 29),rgb(0, 0, 0));
+  
+  height: 100vh;
+
+}
+
+.calsi_container{
+  border: 3px solid rgb(99, 96, 96);
+  background: linear-gradient(140deg, red, yellow,blue);
+  padding: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  box-shadow: 0 0 20px rgb(201, 31, 147) ;
+  border-radius: 10px;
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+ 
+  background: linear-gradient(140deg,transparent ,#1cb0ff,#40ff99)border-box;
+}
+button{
+  margin: 5px;
+  font-size: 30px;
+  padding: 25px;
+}
+.textfield{
+  height: 65px;
+  width: 280px;
+  margin: 8px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.num{
+  border-radius: 5px;
+}

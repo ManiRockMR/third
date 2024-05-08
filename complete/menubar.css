@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: relative;
+    left:-150px;
+    width: 150px;
+    background: #042331;
+    height: 100vh;
+    transition: all .6s ease;
+    bottom: 55px;
+    border-radius: 10px;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    background: #063146;
+    user-select: none;
+    border-radius: 10px;
+}
+.sidebar ul li{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover{
+    padding-left: 55px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+   
+
+}
+label #btn{
+    left: 20px;
+    top:2px;
+    font-size: 25px;
+    color: rgb(30, 28, 28);
+    padding: 2px 6px;
+    background: #9cafb8;
+    border-radius: 5px;
+    background: linear-gradient(140deg,transparent ,#1cb0ff,#40ff99)border-box;
+}
+label #cancel{
+    z-index: 23223;
+    left: -115px;
+    top: 20px;
+    padding: 4px 9px;
+    background: rgba(6, 213, 244, 0.518);
+    border-radius: 5px;
+    transition: all .6s ease;
+    background: linear-gradient(140deg,transparent ,#1cb0ff,#40ff99)border-box;
+   
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 150px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+#check:checked ~ label #cancel{
+    left: 115px;
+    /* pointer-events: none; */
+
+}
+h1{
+    text-align: center;
+    background: linear-gradient(140deg,transparent ,#1cb0ff,#40ff99)border-box;
+    /* font-size: 20px; */
+    font-weight: 600px;
+}
+span{
+    color: #1cb0ff;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 16PX;
+    /* background: linear-gradient(140deg,transparent ,#aadaf3,#9edebc)border-box; */
+}
+.img{
+    background: url(../pic2.jpg);
+    height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+

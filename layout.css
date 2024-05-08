@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.firstbox{
+    height: 120px;
+    width: 145px;
+    background: rgb(234, 211, 211);
+    border-radius: 9px;
+    /* float: right; */
+}
+.inner{
+    height: 70%;
+    width: 75%;
+    background-color: aqua;
+    /* position: relative; */
+    /* left:; */
+    border-radius: 7px;
+    border: 17px soild rgb(44, 34, 133);
+    box-sizing: border-box;
+    text-decoration:line-through;
+}
+.second{
+    /* min-height: calc(100vh - 145px); */
+    background-color: rgb(215, 124, 12);
+    min-height: calc(100vh - 145px);
+    float: left;
+    border-radius: 3PX;
+}
